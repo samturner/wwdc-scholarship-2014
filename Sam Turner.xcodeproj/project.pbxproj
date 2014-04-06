@@ -21,6 +21,20 @@
 		BA47038018F1217F00B87BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036218F1217F00B87BEE /* UIKit.framework */; };
 		BA47038818F1217F00B87BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA47038618F1217F00B87BEE /* InfoPlist.strings */; };
 		BA47038A18F1217F00B87BEE /* Sam_TurnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47038918F1217F00B87BEE /* Sam_TurnerTests.m */; };
+		BA47039618F121A100B87BEE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47039418F121A100B87BEE /* SecondViewController.m */; };
+		BA47039718F121A100B87BEE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA47039518F121A100B87BEE /* SecondViewController.xib */; };
+		BA47039C18F121B300B87BEE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47039A18F121B300B87BEE /* FirstViewController.m */; };
+		BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA47039B18F121B300B87BEE /* FirstViewController.xib */; };
+		BA4703A118F121C500B87BEE /* particleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703A018F121C500B87BEE /* particleScene.m */; };
+		BA4703AA18F122E400B87BEE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4703A918F122E400B87BEE /* spark.png */; };
+		BA4703AF18F129B500B87BEE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4703AE18F129B500B87BEE /* MapKit.framework */; };
+		BA4703B118F129BB00B87BEE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4703B018F129BB00B87BEE /* SpriteKit.framework */; };
+		BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B618F13EB900B87BEE /* FontAwesome.ttf */; };
+		BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */; };
+		BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2518F1541300052EC8 /* sam_hello.png */; };
+		BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2718F1596300052EC8 /* BaseViewController.m */; };
+		BA98BD2F18F1599A00052EC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */; };
+		BA98BD3018F1599A00052EC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,26 @@
 		BA47038518F1217F00B87BEE /* Sam TurnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sam TurnerTests-Info.plist"; sourceTree = "<group>"; };
 		BA47038718F1217F00B87BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA47038918F1217F00B87BEE /* Sam_TurnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sam_TurnerTests.m; sourceTree = "<group>"; };
+		BA47039318F121A100B87BEE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BA47039418F121A100B87BEE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BA47039518F121A100B87BEE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		BA47039918F121B300B87BEE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BA47039A18F121B300B87BEE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BA47039B18F121B300B87BEE /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		BA47039F18F121C500B87BEE /* particleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particleScene.h; sourceTree = "<group>"; };
+		BA4703A018F121C500B87BEE /* particleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = particleScene.m; sourceTree = "<group>"; };
+		BA4703A318F121D700B87BEE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BA4703A918F122E400B87BEE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		BA4703AE18F129B500B87BEE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA4703B018F129BB00B87BEE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		BA4703B618F13EB900B87BEE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		BA4703B818F13EC900B87BEE /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		BA98BD2518F1541300052EC8 /* sam_hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam_hello.png; sourceTree = "<group>"; };
+		BA98BD2718F1596300052EC8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BA98BD2C18F1599A00052EC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4703B118F129BB00B87BEE /* SpriteKit.framework in Frameworks */,
+				BA4703AF18F129B500B87BEE /* MapKit.framework in Frameworks */,
 				BA47036118F1217F00B87BEE /* CoreGraphics.framework in Frameworks */,
 				BA47036318F1217F00B87BEE /* UIKit.framework in Frameworks */,
 				BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */,
@@ -101,6 +137,8 @@
 		BA47035D18F1217F00B87BEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA4703B018F129BB00B87BEE /* SpriteKit.framework */,
+				BA4703AE18F129B500B87BEE /* MapKit.framework */,
 				BA47035E18F1217F00B87BEE /* Foundation.framework */,
 				BA47036018F1217F00B87BEE /* CoreGraphics.framework */,
 				BA47036218F1217F00B87BEE /* UIKit.framework */,
@@ -112,11 +150,13 @@
 		BA47036418F1217F00B87BEE /* Sam Turner */ = {
 			isa = PBXGroup;
 			children = (
+				BA4703AD18F123D200B87BEE /* View Controllers */,
 				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
 				BA47036E18F1217F00B87BEE /* AppDelegate.m */,
 				BA47037018F1217F00B87BEE /* Main.storyboard */,
 				BA47037318F1217F00B87BEE /* ViewController.h */,
 				BA47037418F1217F00B87BEE /* ViewController.m */,
+				BA4703BB18F13ECF00B87BEE /* Font Awesome */,
 				BA47037618F1217F00B87BEE /* Images.xcassets */,
 				BA47036518F1217F00B87BEE /* Supporting Files */,
 			);
@@ -126,7 +166,9 @@
 		BA47036518F1217F00B87BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
 				BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */,
+				BA98BD2518F1541300052EC8 /* sam_hello.png */,
 				BA47036718F1217F00B87BEE /* InfoPlist.strings */,
 				BA47036A18F1217F00B87BEE /* main.m */,
 				BA47036C18F1217F00B87BEE /* Sam Turner-Prefix.pch */,
@@ -150,6 +192,77 @@
 				BA47038618F1217F00B87BEE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA47039818F121A500B87BEE /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA47039318F121A100B87BEE /* SecondViewController.h */,
+				BA47039418F121A100B87BEE /* SecondViewController.m */,
+				BA47039518F121A100B87BEE /* SecondViewController.xib */,
+			);
+			name = SecondViewController;
+			sourceTree = "<group>";
+		};
+		BA47039E18F121B900B87BEE /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703A218F121C800B87BEE /* Particles */,
+				BA47039918F121B300B87BEE /* FirstViewController.h */,
+				BA47039A18F121B300B87BEE /* FirstViewController.m */,
+				BA47039B18F121B300B87BEE /* FirstViewController.xib */,
+			);
+			name = FirstViewController;
+			sourceTree = "<group>";
+		};
+		BA4703A218F121C800B87BEE /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703A918F122E400B87BEE /* spark.png */,
+				BA47039F18F121C500B87BEE /* particleScene.h */,
+				BA4703A018F121C500B87BEE /* particleScene.m */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		BA4703A818F121DB00B87BEE /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703A318F121D700B87BEE /* BaseViewController.h */,
+				BA98BD2718F1596300052EC8 /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		BA4703AD18F123D200B87BEE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703A818F121DB00B87BEE /* BaseViewController */,
+				BA47039E18F121B900B87BEE /* FirstViewController */,
+				BA98BD3118F1599C00052EC8 /* ThirdViewController */,
+				BA47039818F121A500B87BEE /* SecondViewController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BA4703BB18F13ECF00B87BEE /* Font Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703B818F13EC900B87BEE /* NSString+FontAwesome.h */,
+				BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */,
+			);
+			name = "Font Awesome";
+			sourceTree = "<group>";
+		};
+		BA98BD3118F1599C00052EC8 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA98BD2C18F1599A00052EC8 /* ThirdViewController.h */,
+				BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */,
+				BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */,
+			);
+			name = ThirdViewController;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +341,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA47039718F121A100B87BEE /* SecondViewController.xib in Resources */,
+				BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */,
 				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
+				BA4703AA18F122E400B87BEE /* spark.png in Resources */,
+				BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */,
+				BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */,
 				BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */,
 				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
+				BA98BD3018F1599A00052EC8 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +368,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA47039618F121A100B87BEE /* SecondViewController.m in Sources */,
+				BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */,
 				BA47037518F1217F00B87BEE /* ViewController.m in Sources */,
+				BA47039C18F121B300B87BEE /* FirstViewController.m in Sources */,
 				BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */,
+				BA98BD2F18F1599A00052EC8 /* ThirdViewController.m in Sources */,
+				BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */,
+				BA4703A118F121C500B87BEE /* particleScene.m in Sources */,
 				BA47036B18F1217F00B87BEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +581,7 @@
 				BA47038F18F1217F00B87BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA47039018F1217F00B87BEE /* Build configuration list for PBXNativeTarget "Sam TurnerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +590,7 @@
 				BA47039218F1217F00B87BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
