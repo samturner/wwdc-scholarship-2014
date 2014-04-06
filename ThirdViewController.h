@@ -7,7 +7,10 @@
 //
 
 #import "BaseViewController.h"
+#import "CellDetailViewController.h"
 
-@interface ThirdViewController : BaseViewController
+@interface ThirdViewController : BaseViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UILabel *downPrompt;
 
 @end

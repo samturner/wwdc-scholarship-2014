@@ -18,6 +18,12 @@
     pageControl.currentPageIndicatorTintColor = [UIColor colorWithRed:0.18 green:0.76 blue:0.97 alpha:1];
     pageControl.backgroundColor = [UIColor whiteColor];
     
+    self.rootViewController = [[ViewController alloc]  init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
+    
+    [self.window addSubview:self.navigationController.view];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							

@@ -57,7 +57,7 @@
     point.title = @"University of Sydney";
     
     [self.uniMap addAnnotation:point];
-    
+        
     // Do any additional setup after loading the view from its nib.
 }
 

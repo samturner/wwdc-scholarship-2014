@@ -33,8 +33,12 @@
 		BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */; };
 		BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2518F1541300052EC8 /* sam_hello.png */; };
 		BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2718F1596300052EC8 /* BaseViewController.m */; };
-		BA98BD2F18F1599A00052EC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */; };
-		BA98BD3018F1599A00052EC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */; };
+		BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD3718F1653200052EC8 /* ThirdViewController.m */; };
+		BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD3818F1653200052EC8 /* ThirdViewController.xib */; };
+		BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */; };
+		BA98BD4118F1746400052EC8 /* dollarlog_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD4018F1746400052EC8 /* dollarlog_icon.png */; };
+		BA98BD4518F17FF000052EC8 /* CellDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */; };
+		BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,9 +88,14 @@
 		BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		BA98BD2518F1541300052EC8 /* sam_hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam_hello.png; sourceTree = "<group>"; };
 		BA98BD2718F1596300052EC8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		BA98BD2C18F1599A00052EC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		BA98BD3618F1653200052EC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		BA98BD3718F1653200052EC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
+		BA98BD3818F1653200052EC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdViewController.xib; path = ../ThirdViewController.xib; sourceTree = "<group>"; };
+		BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewCell.xib; sourceTree = "<group>"; };
+		BA98BD4018F1746400052EC8 /* dollarlog_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollarlog_icon.png; sourceTree = "<group>"; };
+		BA98BD4218F17FF000052EC8 /* CellDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDetailViewController.h; sourceTree = "<group>"; };
+		BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDetailViewController.m; sourceTree = "<group>"; };
+		BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
+				BA98BD4018F1746400052EC8 /* dollarlog_icon.png */,
 				BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */,
 				BA98BD2518F1541300052EC8 /* sam_hello.png */,
 				BA47036718F1217F00B87BEE /* InfoPlist.strings */,
@@ -237,6 +247,7 @@
 		BA4703AD18F123D200B87BEE /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA98BD3B18F165BE00052EC8 /* ThirdViewController */,
 				BA4703A818F121DB00B87BEE /* BaseViewController */,
 				BA47039E18F121B900B87BEE /* FirstViewController */,
 				BA98BD3118F1599C00052EC8 /* ThirdViewController */,
@@ -257,12 +268,31 @@
 		BA98BD3118F1599C00052EC8 /* ThirdViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BA98BD2C18F1599A00052EC8 /* ThirdViewController.h */,
-				BA98BD2D18F1599A00052EC8 /* ThirdViewController.m */,
-				BA98BD2E18F1599A00052EC8 /* ThirdViewController.xib */,
 			);
 			name = ThirdViewController;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		BA98BD3B18F165BE00052EC8 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA98BD3618F1653200052EC8 /* ThirdViewController.h */,
+				BA98BD3718F1653200052EC8 /* ThirdViewController.m */,
+				BA98BD3818F1653200052EC8 /* ThirdViewController.xib */,
+				BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */,
+				BA98BD4718F17FF400052EC8 /* Cell Detail */,
+			);
+			name = ThirdViewController;
+			sourceTree = "<group>";
+		};
+		BA98BD4718F17FF400052EC8 /* Cell Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BA98BD4218F17FF000052EC8 /* CellDetailViewController.h */,
+				BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */,
+				BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */,
+			);
+			name = "Cell Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,15 +371,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA98BD4118F1746400052EC8 /* dollarlog_icon.png in Resources */,
 				BA47039718F121A100B87BEE /* SecondViewController.xib in Resources */,
 				BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */,
 				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
 				BA4703AA18F122E400B87BEE /* spark.png in Resources */,
 				BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */,
 				BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */,
+				BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */,
 				BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */,
 				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
-				BA98BD3018F1599A00052EC8 /* ThirdViewController.xib in Resources */,
+				BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */,
+				BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +406,8 @@
 				BA47037518F1217F00B87BEE /* ViewController.m in Sources */,
 				BA47039C18F121B300B87BEE /* FirstViewController.m in Sources */,
 				BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */,
-				BA98BD2F18F1599A00052EC8 /* ThirdViewController.m in Sources */,
+				BA98BD4518F17FF000052EC8 /* CellDetailViewController.m in Sources */,
+				BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */,
 				BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */,
 				BA4703A118F121C500B87BEE /* particleScene.m in Sources */,
 				BA47036B18F1217F00B87BEE /* main.m in Sources */,
