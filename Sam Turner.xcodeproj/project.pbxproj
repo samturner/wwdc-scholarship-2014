@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
+		BA47036118F1217F00B87BEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036018F1217F00B87BEE /* CoreGraphics.framework */; };
+		BA47036318F1217F00B87BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036218F1217F00B87BEE /* UIKit.framework */; };
+		BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA47036718F1217F00B87BEE /* InfoPlist.strings */; };
+		BA47036B18F1217F00B87BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47036A18F1217F00B87BEE /* main.m */; };
+		BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47036E18F1217F00B87BEE /* AppDelegate.m */; };
+		BA47037218F1217F00B87BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA47037018F1217F00B87BEE /* Main.storyboard */; };
+		BA47037518F1217F00B87BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47037418F1217F00B87BEE /* ViewController.m */; };
+		BA47037718F1217F00B87BEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47037618F1217F00B87BEE /* Images.xcassets */; };
+		BA47037E18F1217F00B87BEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47037D18F1217F00B87BEE /* XCTest.framework */; };
+		BA47037F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
+		BA47038018F1217F00B87BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036218F1217F00B87BEE /* UIKit.framework */; };
+		BA47038818F1217F00B87BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA47038618F1217F00B87BEE /* InfoPlist.strings */; };
+		BA47038A18F1217F00B87BEE /* Sam_TurnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47038918F1217F00B87BEE /* Sam_TurnerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA47038118F1217F00B87BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA47035318F1217F00B87BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA47035A18F1217F00B87BEE;
+			remoteInfo = "Sam Turner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA47035B18F1217F00B87BEE /* Sam Turner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sam Turner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47035E18F1217F00B87BEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA47036018F1217F00B87BEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA47036218F1217F00B87BEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sam Turner-Info.plist"; sourceTree = "<group>"; };
+		BA47036818F1217F00B87BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA47036A18F1217F00B87BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA47036C18F1217F00B87BEE /* Sam Turner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sam Turner-Prefix.pch"; sourceTree = "<group>"; };
+		BA47036D18F1217F00B87BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA47036E18F1217F00B87BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA47037118F1217F00B87BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA47037318F1217F00B87BEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA47037418F1217F00B87BEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA47037618F1217F00B87BEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA47037C18F1217F00B87BEE /* Sam TurnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sam TurnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47037D18F1217F00B87BEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA47038518F1217F00B87BEE /* Sam TurnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sam TurnerTests-Info.plist"; sourceTree = "<group>"; };
+		BA47038718F1217F00B87BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA47038918F1217F00B87BEE /* Sam_TurnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sam_TurnerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA47035818F1217F00B87BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47036118F1217F00B87BEE /* CoreGraphics.framework in Frameworks */,
+				BA47036318F1217F00B87BEE /* UIKit.framework in Frameworks */,
+				BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA47037918F1217F00B87BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47037E18F1217F00B87BEE /* XCTest.framework in Frameworks */,
+				BA47038018F1217F00B87BEE /* UIKit.framework in Frameworks */,
+				BA47037F18F1217F00B87BEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA47035218F1217F00B87BEE = {
+			isa = PBXGroup;
+			children = (
+				BA47036418F1217F00B87BEE /* Sam Turner */,
+				BA47038318F1217F00B87BEE /* Sam TurnerTests */,
+				BA47035D18F1217F00B87BEE /* Frameworks */,
+				BA47035C18F1217F00B87BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA47035C18F1217F00B87BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA47035B18F1217F00B87BEE /* Sam Turner.app */,
+				BA47037C18F1217F00B87BEE /* Sam TurnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA47035D18F1217F00B87BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA47035E18F1217F00B87BEE /* Foundation.framework */,
+				BA47036018F1217F00B87BEE /* CoreGraphics.framework */,
+				BA47036218F1217F00B87BEE /* UIKit.framework */,
+				BA47037D18F1217F00B87BEE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA47036418F1217F00B87BEE /* Sam Turner */ = {
+			isa = PBXGroup;
+			children = (
+				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
+				BA47036E18F1217F00B87BEE /* AppDelegate.m */,
+				BA47037018F1217F00B87BEE /* Main.storyboard */,
+				BA47037318F1217F00B87BEE /* ViewController.h */,
+				BA47037418F1217F00B87BEE /* ViewController.m */,
+				BA47037618F1217F00B87BEE /* Images.xcassets */,
+				BA47036518F1217F00B87BEE /* Supporting Files */,
+			);
+			path = "Sam Turner";
+			sourceTree = "<group>";
+		};
+		BA47036518F1217F00B87BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */,
+				BA47036718F1217F00B87BEE /* InfoPlist.strings */,
+				BA47036A18F1217F00B87BEE /* main.m */,
+				BA47036C18F1217F00B87BEE /* Sam Turner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA47038318F1217F00B87BEE /* Sam TurnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA47038918F1217F00B87BEE /* Sam_TurnerTests.m */,
+				BA47038418F1217F00B87BEE /* Supporting Files */,
+			);
+			path = "Sam TurnerTests";
+			sourceTree = "<group>";
+		};
+		BA47038418F1217F00B87BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA47038518F1217F00B87BEE /* Sam TurnerTests-Info.plist */,
+				BA47038618F1217F00B87BEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA47035A18F1217F00B87BEE /* Sam Turner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA47038D18F1217F00B87BEE /* Build configuration list for PBXNativeTarget "Sam Turner" */;
+			buildPhases = (
+				BA47035718F1217F00B87BEE /* Sources */,
+				BA47035818F1217F00B87BEE /* Frameworks */,
+				BA47035918F1217F00B87BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sam Turner";
+			productName = "Sam Turner";
+			productReference = BA47035B18F1217F00B87BEE /* Sam Turner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA47037B18F1217F00B87BEE /* Sam TurnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA47039018F1217F00B87BEE /* Build configuration list for PBXNativeTarget "Sam TurnerTests" */;
+			buildPhases = (
+				BA47037818F1217F00B87BEE /* Sources */,
+				BA47037918F1217F00B87BEE /* Frameworks */,
+				BA47037A18F1217F00B87BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA47038218F1217F00B87BEE /* PBXTargetDependency */,
+			);
+			name = "Sam TurnerTests";
+			productName = "Sam TurnerTests";
+			productReference = BA47037C18F1217F00B87BEE /* Sam TurnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA47035318F1217F00B87BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sam Turner";
+				TargetAttributes = {
+					BA47037B18F1217F00B87BEE = {
+						TestTargetID = BA47035A18F1217F00B87BEE;
+					};
+				};
+			};
+			buildConfigurationList = BA47035618F1217F00B87BEE /* Build configuration list for PBXProject "Sam Turner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA47035218F1217F00B87BEE;
+			productRefGroup = BA47035C18F1217F00B87BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA47035A18F1217F00B87BEE /* Sam Turner */,
+				BA47037B18F1217F00B87BEE /* Sam TurnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA47035918F1217F00B87BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
+				BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */,
+				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA47037A18F1217F00B87BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47038818F1217F00B87BEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA47035718F1217F00B87BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47037518F1217F00B87BEE /* ViewController.m in Sources */,
+				BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */,
+				BA47036B18F1217F00B87BEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA47037818F1217F00B87BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47038A18F1217F00B87BEE /* Sam_TurnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA47038218F1217F00B87BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA47035A18F1217F00B87BEE /* Sam Turner */;
+			targetProxy = BA47038118F1217F00B87BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA47036718F1217F00B87BEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA47036818F1217F00B87BEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA47037018F1217F00B87BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA47037118F1217F00B87BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA47038618F1217F00B87BEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA47038718F1217F00B87BEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA47038B18F1217F00B87BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA47038C18F1217F00B87BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA47038E18F1217F00B87BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sam Turner/Sam Turner-Prefix.pch";
+				INFOPLIST_FILE = "Sam Turner/Sam Turner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA47038F18F1217F00B87BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sam Turner/Sam Turner-Prefix.pch";
+				INFOPLIST_FILE = "Sam Turner/Sam Turner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA47039118F1217F00B87BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sam Turner.app/Sam Turner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sam Turner/Sam Turner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sam TurnerTests/Sam TurnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA47039218F1217F00B87BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sam Turner.app/Sam Turner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sam Turner/Sam Turner-Prefix.pch";
+				INFOPLIST_FILE = "Sam TurnerTests/Sam TurnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA47035618F1217F00B87BEE /* Build configuration list for PBXProject "Sam Turner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA47038B18F1217F00B87BEE /* Debug */,
+				BA47038C18F1217F00B87BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA47038D18F1217F00B87BEE /* Build configuration list for PBXNativeTarget "Sam Turner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA47038E18F1217F00B87BEE /* Debug */,
+				BA47038F18F1217F00B87BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA47039018F1217F00B87BEE /* Build configuration list for PBXNativeTarget "Sam TurnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA47039118F1217F00B87BEE /* Debug */,
+				BA47039218F1217F00B87BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA47035318F1217F00B87BEE /* Project object */;
+}
