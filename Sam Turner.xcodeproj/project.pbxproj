@@ -31,6 +31,7 @@
 		BA4703B118F129BB00B87BEE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4703B018F129BB00B87BEE /* SpriteKit.framework */; };
 		BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B618F13EB900B87BEE /* FontAwesome.ttf */; };
 		BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */; };
+		BA76609F18F24C0E008BD6D7 /* projects_content.md in Resources */ = {isa = PBXBuildFile; fileRef = BA76609E18F24C0E008BD6D7 /* projects_content.md */; };
 		BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2518F1541300052EC8 /* sam_hello.png */; };
 		BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2718F1596300052EC8 /* BaseViewController.m */; };
 		BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD3718F1653200052EC8 /* ThirdViewController.m */; };
@@ -86,6 +87,7 @@
 		BA4703B618F13EB900B87BEE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		BA4703B818F13EC900B87BEE /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		BA76609E18F24C0E008BD6D7 /* projects_content.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = projects_content.md; sourceTree = "<group>"; };
 		BA98BD2518F1541300052EC8 /* sam_hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam_hello.png; sourceTree = "<group>"; };
 		BA98BD2718F1596300052EC8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BA98BD3618F1653200052EC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		BA47036518F1217F00B87BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA76609D18F24BFE008BD6D7 /* Content */,
 				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
 				BA98BD4018F1746400052EC8 /* dollarlog_icon.png */,
 				BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */,
@@ -250,7 +253,6 @@
 				BA98BD3B18F165BE00052EC8 /* ThirdViewController */,
 				BA4703A818F121DB00B87BEE /* BaseViewController */,
 				BA47039E18F121B900B87BEE /* FirstViewController */,
-				BA98BD3118F1599C00052EC8 /* ThirdViewController */,
 				BA47039818F121A500B87BEE /* SecondViewController */,
 			);
 			name = "View Controllers";
@@ -265,12 +267,12 @@
 			name = "Font Awesome";
 			sourceTree = "<group>";
 		};
-		BA98BD3118F1599C00052EC8 /* ThirdViewController */ = {
+		BA76609D18F24BFE008BD6D7 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				BA76609E18F24C0E008BD6D7 /* projects_content.md */,
 			);
-			name = ThirdViewController;
-			path = ..;
+			name = Content;
 			sourceTree = "<group>";
 		};
 		BA98BD3B18F165BE00052EC8 /* ThirdViewController */ = {
@@ -380,6 +382,7 @@
 				BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */,
 				BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */,
 				BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */,
+				BA76609F18F24C0E008BD6D7 /* projects_content.md in Resources */,
 				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
 				BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */,
 				BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */,
