@@ -26,7 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.dismissButton.tintColor = [UIColor colorWithRed:0.27 green:0.77 blue:0.96 alpha:1];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -34,6 +33,18 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// Set up the view based on the given project
+- (void) showViewWithProject:(Project *) project {
+    self.navBar.topItem.title = project.header;
+    self.dismissButton.tintColor =  project.accentColor;
+    self.projectDescription.text = project.projectDescription;
+    self.roleType.textColor = project.accentColor;
+    self.roleType.text = project.role;
+    self.projectLanguages.text = project.languages;
+    [self.icon setImage:[UIImage imageNamed: project.projectIcon]];
+
 }
 
 - (IBAction)dismissModal:(id)sender {

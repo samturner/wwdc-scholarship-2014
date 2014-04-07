@@ -32,12 +32,15 @@
 		BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B618F13EB900B87BEE /* FontAwesome.ttf */; };
 		BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */; };
 		BA76609F18F24C0E008BD6D7 /* projects_content.md in Resources */ = {isa = PBXBuildFile; fileRef = BA76609E18F24C0E008BD6D7 /* projects_content.md */; };
+		BA86F15618F26CB800809D93 /* ThirdViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86F15518F26CB800809D93 /* ThirdViewTableViewCell.m */; };
+		BA86F15918F289B700809D93 /* muro_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86F15818F289B700809D93 /* muro_icon.png */; };
+		BA86F15C18F2955400809D93 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86F15B18F2955400809D93 /* Project.m */; };
+		BA86F15F18F29D9000809D93 /* dollarlog_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86F15E18F29D9000809D93 /* dollarlog_icon.png */; };
 		BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD2518F1541300052EC8 /* sam_hello.png */; };
 		BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD2718F1596300052EC8 /* BaseViewController.m */; };
 		BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD3718F1653200052EC8 /* ThirdViewController.m */; };
 		BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD3818F1653200052EC8 /* ThirdViewController.xib */; };
 		BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */; };
-		BA98BD4118F1746400052EC8 /* dollarlog_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD4018F1746400052EC8 /* dollarlog_icon.png */; };
 		BA98BD4518F17FF000052EC8 /* CellDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */; };
 		BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -88,13 +91,18 @@
 		BA4703B818F13EC900B87BEE /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		BA76609E18F24C0E008BD6D7 /* projects_content.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = projects_content.md; sourceTree = "<group>"; };
+		BA86F15418F26CB800809D93 /* ThirdViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewTableViewCell.h; sourceTree = "<group>"; };
+		BA86F15518F26CB800809D93 /* ThirdViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewTableViewCell.m; sourceTree = "<group>"; };
+		BA86F15818F289B700809D93 /* muro_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muro_icon.png; sourceTree = "<group>"; };
+		BA86F15A18F2955400809D93 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		BA86F15B18F2955400809D93 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		BA86F15E18F29D9000809D93 /* dollarlog_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollarlog_icon.png; sourceTree = "<group>"; };
 		BA98BD2518F1541300052EC8 /* sam_hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam_hello.png; sourceTree = "<group>"; };
 		BA98BD2718F1596300052EC8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BA98BD3618F1653200052EC8 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
 		BA98BD3718F1653200052EC8 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
 		BA98BD3818F1653200052EC8 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdViewController.xib; path = ../ThirdViewController.xib; sourceTree = "<group>"; };
 		BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewCell.xib; sourceTree = "<group>"; };
-		BA98BD4018F1746400052EC8 /* dollarlog_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollarlog_icon.png; sourceTree = "<group>"; };
 		BA98BD4218F17FF000052EC8 /* CellDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDetailViewController.h; sourceTree = "<group>"; };
 		BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDetailViewController.m; sourceTree = "<group>"; };
 		BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDetailViewController.xib; sourceTree = "<group>"; };
@@ -161,6 +169,7 @@
 		BA47036418F1217F00B87BEE /* Sam Turner */ = {
 			isa = PBXGroup;
 			children = (
+				BA86F15D18F298EB00809D93 /* Project */,
 				BA4703AD18F123D200B87BEE /* View Controllers */,
 				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
 				BA47036E18F1217F00B87BEE /* AppDelegate.m */,
@@ -179,7 +188,8 @@
 			children = (
 				BA76609D18F24BFE008BD6D7 /* Content */,
 				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
-				BA98BD4018F1746400052EC8 /* dollarlog_icon.png */,
+				BA86F15818F289B700809D93 /* muro_icon.png */,
+				BA86F15E18F29D9000809D93 /* dollarlog_icon.png */,
 				BA47036618F1217F00B87BEE /* Sam Turner-Info.plist */,
 				BA98BD2518F1541300052EC8 /* sam_hello.png */,
 				BA47036718F1217F00B87BEE /* InfoPlist.strings */,
@@ -275,13 +285,32 @@
 			name = Content;
 			sourceTree = "<group>";
 		};
+		BA86F15718F26D0400809D93 /* ThirdViewTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */,
+				BA86F15418F26CB800809D93 /* ThirdViewTableViewCell.h */,
+				BA86F15518F26CB800809D93 /* ThirdViewTableViewCell.m */,
+			);
+			name = ThirdViewTableCell;
+			sourceTree = "<group>";
+		};
+		BA86F15D18F298EB00809D93 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				BA86F15A18F2955400809D93 /* Project.h */,
+				BA86F15B18F2955400809D93 /* Project.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
 		BA98BD3B18F165BE00052EC8 /* ThirdViewController */ = {
 			isa = PBXGroup;
 			children = (
 				BA98BD3618F1653200052EC8 /* ThirdViewController.h */,
 				BA98BD3718F1653200052EC8 /* ThirdViewController.m */,
 				BA98BD3818F1653200052EC8 /* ThirdViewController.xib */,
-				BA98BD3C18F165D300052EC8 /* ThirdViewCell.xib */,
+				BA86F15718F26D0400809D93 /* ThirdViewTableCell */,
 				BA98BD4718F17FF400052EC8 /* Cell Detail */,
 			);
 			name = ThirdViewController;
@@ -373,11 +402,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA98BD4118F1746400052EC8 /* dollarlog_icon.png in Resources */,
 				BA47039718F121A100B87BEE /* SecondViewController.xib in Resources */,
 				BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */,
 				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
+				BA86F15F18F29D9000809D93 /* dollarlog_icon.png in Resources */,
 				BA4703AA18F122E400B87BEE /* spark.png in Resources */,
+				BA86F15918F289B700809D93 /* muro_icon.png in Resources */,
 				BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */,
 				BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */,
 				BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */,
@@ -404,8 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA86F15618F26CB800809D93 /* ThirdViewTableViewCell.m in Sources */,
 				BA47039618F121A100B87BEE /* SecondViewController.m in Sources */,
 				BA98BD2818F1596300052EC8 /* BaseViewController.m in Sources */,
+				BA86F15C18F2955400809D93 /* Project.m in Sources */,
 				BA47037518F1217F00B87BEE /* ViewController.m in Sources */,
 				BA47039C18F121B300B87BEE /* FirstViewController.m in Sources */,
 				BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Project.h"
 
 @interface CellDetailViewController : UIViewController
 
@@ -14,6 +15,12 @@
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *dismissButton;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navBar;
+@property (weak, nonatomic) IBOutlet UIImageView *icon;
+@property (weak, nonatomic) IBOutlet UITextView *projectDescription;
+@property (weak, nonatomic) IBOutlet UILabel *projectLanguages;
 
+@property (weak, nonatomic) IBOutlet UILabel *roleType;
+
+- (void) showViewWithProject:(Project *) project;
 
 @end

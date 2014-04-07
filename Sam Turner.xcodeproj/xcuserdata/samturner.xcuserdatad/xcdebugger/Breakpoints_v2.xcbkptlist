@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThirdViewController.m"
-            timestampString = "418480467.661288"
+            timestampString = "418555299.852565"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -41,12 +41,12 @@
                   symbolName = "-[AppDelegate rootViewController]"
                   moduleName = "Sam Turner"
                   urlString = "file:///Users/samturner/Documents/Development/Sam%20Turner/Sam%20Turner/AppDelegate.h"
-                  timestampString = "418480770.383702"
+                  timestampString = "418542253.657997"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
                   endingLineNumber = "16"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -55,12 +55,12 @@
                   symbolName = "-[AppDelegate setRootViewController:]"
                   moduleName = "Sam Turner"
                   urlString = "file:///Users/samturner/Documents/Development/Sam%20Turner/Sam%20Turner/AppDelegate.h"
-                  timestampString = "418480770.38389"
+                  timestampString = "418542253.658256"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
                   endingLineNumber = "16"
-                  offsetFromSymbolStart = "22">
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -71,14 +71,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ThirdViewController.m"
-            timestampString = "418480750.758451"
+            filePath = "ThirdViewController.h"
+            timestampString = "418551733.571399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "@interface ThirdViewController"
+            landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
