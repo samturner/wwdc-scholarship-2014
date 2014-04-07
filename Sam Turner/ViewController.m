@@ -9,12 +9,12 @@
 #import "ViewController.h"
 
 #import "BaseViewController.h"
+
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
-
-#import <SpriteKit/SKView.h>
-#import "particleScene.h"
+#import "FourthViewController.h"
+#import "FifthViewController.h"
 
 @interface ViewController ()
 
@@ -32,10 +32,13 @@
     SecondViewController *second = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     
     ThirdViewController *third = [[ThirdViewController alloc] initWithNibName:@"ThirdViewController" bundle:nil];
-
+    
+    FourthViewController *fourth = [[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil];
+    
+    FifthViewController *fifth = [[FifthViewController alloc] initWithNibName:@"FifthViewController" bundle:nil];
     
     // Add the view controllers to the array
-    self.viewControllers = [[NSArray alloc] initWithObjects:first, second, third, nil];
+    self.viewControllers = [[NSArray alloc] initWithObjects:first, second, third, fourth, fifth, nil];
     
     self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationVertical options:nil];
     
