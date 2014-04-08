@@ -7,7 +7,16 @@
 //
 
 #import "BaseViewController.h"
+#import "ThirdViewTableViewCell.h"
+#import "CellDetailViewController.h"
 
-@interface FourthViewController : BaseViewController
+#import "Project.h"
+
+@interface FourthViewController : BaseViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UILabel *downPrompt;
+
+@property (strong, nonatomic) NSArray *projects;
+
 
 @end

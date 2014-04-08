@@ -16,5 +16,6 @@
 @property (strong, nonatomic) IBOutlet SKView *particleView;
 
 @property (weak, nonatomic) IBOutlet UILabel *downPrompt;
+@property (weak, nonatomic) IBOutlet UILabel *downPromptText;
 
 @end

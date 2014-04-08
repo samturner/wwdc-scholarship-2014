@@ -13,5 +13,6 @@
 
 @property NSUInteger index;
 
+- (void) addPulseAnimationToView: (UIView *) view;
 
 @end

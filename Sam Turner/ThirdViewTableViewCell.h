@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+FontAwesome.h"
 
 @interface ThirdViewTableViewCell : UITableViewCell
 
@@ -18,4 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *cellInfo;
 
 @property (weak, nonatomic) IBOutlet UIImageView *projectIcon;
+
+@property (weak, nonatomic) IBOutlet UILabel *disclosure;
+
 @end

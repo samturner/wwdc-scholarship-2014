@@ -38,6 +38,7 @@
 // Set up the view based on the given project
 - (void) showViewWithProject:(Project *) project {
     self.navBar.topItem.title = project.header;
+
     self.dismissButton.tintColor =  project.accentColor;
     self.projectDescription.text = project.projectDescription;
     self.roleType.textColor = project.accentColor;

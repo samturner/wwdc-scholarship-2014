@@ -14,12 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *downPrompt;
 
-//@property (strong, nonatomic) NSArray *cellHeaders;
-//@property (strong, nonatomic) NSArray *cellSubtitles;
-//@property (strong, nonatomic) NSArray *cellAccentColors;
-//@property (strong, nonatomic) NSArray *cellIntroductions;
-//@property (strong, nonatomic) NSArray *cellProjectIcons;
-
 @property (strong, nonatomic) NSArray *projects;
 
 @end

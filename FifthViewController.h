@@ -7,7 +7,10 @@
 //
 
 #import "BaseViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface FifthViewController : BaseViewController
+
+@property (weak, nonatomic) IBOutlet MKMapView *sanFranMap;
 
 @end

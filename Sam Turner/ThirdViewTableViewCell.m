@@ -16,7 +16,6 @@
     if (self) {
         // Initialization code
         
-//        self.selectedBackgroundView.backgroundColor = [UIColor redColor];
     }
     return self;
 }
@@ -24,6 +23,9 @@
 - (void)awakeFromNib
 {
     // Initialization code
+    self.disclosure.font = [UIFont fontWithName:kFontAwesomeFamilyName size:18];
+    self.disclosure.text = [NSString fontAwesomeIconStringForEnum:FAChevronRight];
+    self.disclosure.alpha = 0.4;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

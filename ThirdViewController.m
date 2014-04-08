@@ -43,7 +43,7 @@
     
     Project *muro = [[Project alloc] init];
     muro.header = @"Muro";
-    muro.role = @"Developer & Designer";
+    muro.role = @"Developer, Designer & Founder";
     muro.languages = @"Objective-C, HTML, CSS, Javascript, PHP, mySQL, Photoshop";
     muro.accentColor = [UIColor colorWithRed:0.52 green:0.33 blue:0.89 alpha:1];
     muro.introduction = @"Muro lets you share, meet and connect with people that go to the same events as you. Accepted into an incubator and recieved some seed funding.";
@@ -52,17 +52,18 @@
     
     Project *jobgps = [[Project alloc] init];
     jobgps.header = @"JobGPS";
-    jobgps.languages = @"HTML, CSS, Javascript, PHP, mySQL";
+    jobgps.languages = @"HTML, CSS, Javascript, PHP, mySQL, Python";
     jobgps.role = @"Developer & Designer";
-    jobgps.accentColor = [UIColor colorWithRed:0.27 green:0.77 blue:0.96 alpha:1];
+    jobgps.accentColor = [UIColor colorWithRed:0.2 green:0.67 blue:0.69 alpha:1];
     jobgps.introduction = @"JobGPS provides tailored job recommendations based on a users past employment and their education. I built their platform and web application.";
     jobgps.projectIcon = @"jobgps_icon.png";
-    jobgps.projectDescription = @"";
+    jobgps.projectDescription = [NSString stringWithFormat:@"%@\r\r%@", @"JobGPS is a company that is aiming to take on some of the bigger job search engines by providing tailored reccomendations based on a users past employment and their education. I was hired by JobGPS to build their product. This involved building the backend (in mySQL, PHP and a bit of Python) and the front end (HTML, CSS, Bootstrap and Javascript).", @"This was a great challenge, because it was the first time I had built an entire service from the ground up by myself. In the end, they where extremely happy with the product and are still using it today."];
     
     projects = [[NSArray alloc] initWithObjects:dollarlog, muro, jobgps, nil] ;
     
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
+//    [self addPulseAnimationToView:self.downPrompt];
     
 }
 
@@ -99,6 +100,8 @@
     cell.cellInfo.textColor = [UIColor lightGrayColor];
     
     [cell.projectIcon setImage:[UIImage imageNamed: project.projectIcon]];
+    
+    cell.disclosure.textColor =  project.accentColor;
     
     return cell;
 }
