@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA140E9518F55D2F0041340F /* university_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9418F55D2F0041340F /* university_icon.png */; };
+		BA140E9C18F563010041340F /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA140E9A18F563010041340F /* SixthViewController.m */; };
+		BA140E9D18F563010041340F /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9B18F563010041340F /* SixthViewController.xib */; };
 		BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
 		BA47036118F1217F00B87BEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036018F1217F00B87BEE /* CoreGraphics.framework */; };
 		BA47036318F1217F00B87BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036218F1217F00B87BEE /* UIKit.framework */; };
@@ -44,7 +47,6 @@
 		BA98BD4518F17FF000052EC8 /* CellDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */; };
 		BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */; };
 		BABC928F18F3D25B0037B02F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABC928E18F3D25B0037B02F /* QuartzCore.framework */; };
-		BABC929118F3DE970037B02F /* wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = BABC929018F3DE970037B02F /* wwdc.png */; };
 		BAD79A1F18F40796001EE6DC /* jobgps_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1E18F40796001EE6DC /* jobgps_icon.png */; };
 		BAD79A2118F4161B001EE6DC /* pixol_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A2018F4161B001EE6DC /* pixol_icon.png */; };
 		BAD79A2318F41673001EE6DC /* work_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A2218F41673001EE6DC /* work_icon.png */; };
@@ -66,6 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA140E9418F55D2F0041340F /* university_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_icon.png; sourceTree = "<group>"; };
+		BA140E9918F563010041340F /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		BA140E9A18F563010041340F /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		BA140E9B18F563010041340F /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
 		BA47035B18F1217F00B87BEE /* Sam Turner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sam Turner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA47035E18F1217F00B87BEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA47036018F1217F00B87BEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,7 +123,6 @@
 		BA98BD4318F17FF000052EC8 /* CellDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDetailViewController.m; sourceTree = "<group>"; };
 		BA98BD4418F17FF000052EC8 /* CellDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDetailViewController.xib; sourceTree = "<group>"; };
 		BABC928E18F3D25B0037B02F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BABC929018F3DE970037B02F /* wwdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdc.png; sourceTree = "<group>"; };
 		BAD79A1E18F40796001EE6DC /* jobgps_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jobgps_icon.png; sourceTree = "<group>"; };
 		BAD79A2018F4161B001EE6DC /* pixol_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixol_icon.png; sourceTree = "<group>"; };
 		BAD79A2218F41673001EE6DC /* work_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = work_icon.png; sourceTree = "<group>"; };
@@ -157,6 +162,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA140E9E18F563040041340F /* SixthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA140E9918F563010041340F /* SixthViewController.h */,
+				BA140E9A18F563010041340F /* SixthViewController.m */,
+				BA140E9B18F563010041340F /* SixthViewController.xib */,
+			);
+			name = SixthViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		BA47035218F1217F00B87BEE = {
 			isa = PBXGroup;
 			children = (
@@ -211,11 +227,11 @@
 			isa = PBXGroup;
 			children = (
 				BAD79A2418F41EB0001EE6DC /* page_drop_shadow.png */,
-				BABC929018F3DE970037B02F /* wwdc.png */,
 				BA76609D18F24BFE008BD6D7 /* Content */,
 				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
 				BA86F15818F289B700809D93 /* muro_icon.png */,
 				BAD79A2018F4161B001EE6DC /* pixol_icon.png */,
+				BA140E9418F55D2F0041340F /* university_icon.png */,
 				BAD79A2218F41673001EE6DC /* work_icon.png */,
 				BAD79A1E18F40796001EE6DC /* jobgps_icon.png */,
 				BA86F15E18F29D9000809D93 /* dollarlog_icon.png */,
@@ -289,11 +305,12 @@
 		BA4703AD18F123D200B87BEE /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA140E9E18F563040041340F /* SixthViewController */,
 				BADDBF4418F2CBD4003B8D88 /* FifthViewController */,
 				BADDBF3B18F2CB23003B8D88 /* FourthViewController */,
 				BA98BD3B18F165BE00052EC8 /* ThirdViewController */,
-				BA47039E18F121B900B87BEE /* FirstViewController */,
 				BA47039818F121A500B87BEE /* SecondViewController */,
+				BA47039E18F121B900B87BEE /* FirstViewController */,
 				BA4703A818F121DB00B87BEE /* BaseViewController */,
 			);
 			name = "View Controllers";
@@ -455,6 +472,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA140E9518F55D2F0041340F /* university_icon.png in Resources */,
 				BA47039718F121A100B87BEE /* SecondViewController.xib in Resources */,
 				BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */,
 				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
@@ -471,8 +489,8 @@
 				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
 				BAD79A2118F4161B001EE6DC /* pixol_icon.png in Resources */,
 				BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */,
+				BA140E9D18F563010041340F /* SixthViewController.xib in Resources */,
 				BAD79A1F18F40796001EE6DC /* jobgps_icon.png in Resources */,
-				BABC929118F3DE970037B02F /* wwdc.png in Resources */,
 				BAD79A2518F41EB0001EE6DC /* page_drop_shadow.png in Resources */,
 				BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */,
 				BAD79A2318F41673001EE6DC /* work_icon.png in Resources */,
@@ -508,6 +526,7 @@
 				BA4703A118F121C500B87BEE /* particleScene.m in Sources */,
 				BADDBF4218F2CBD0003B8D88 /* FifthViewController.m in Sources */,
 				BA47036B18F1217F00B87BEE /* main.m in Sources */,
+				BA140E9C18F563010041340F /* SixthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,7 @@
         /* Setup your scene here */
         
         self.backgroundColor = [SKColor whiteColor];
-        [self addChild:[self newExplosion:50 : 100]];
+        [self addChild:[self newExplosion:50 : 160]];
 
     }
     return self;
@@ -40,7 +40,7 @@
     [emitter setParticleLifetime:2.5];
     [emitter setParticleLifetimeRange:0.49];
     
-    [emitter setParticlePositionRange:CGVectorMake(500, self.frame.size.height - 60)];
+    [emitter setParticlePositionRange:CGVectorMake(500, self.frame.size.height)];
     [emitter setPosition:CGPointMake(posX, posy)];
     
     [emitter setAlpha:0.8];

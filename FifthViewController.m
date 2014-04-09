@@ -30,7 +30,6 @@
     [super viewDidLoad];
     
     CLLocationCoordinate2D zoomLocation;
-    //37.783961, -122.401268
     zoomLocation.latitude = 37.783961;
     zoomLocation.longitude= -122.401268;
     

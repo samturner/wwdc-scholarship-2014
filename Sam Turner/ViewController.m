@@ -15,6 +15,7 @@
 #import "ThirdViewController.h"
 #import "FourthViewController.h"
 #import "FifthViewController.h"
+#import "SixthViewController.h"
 
 @interface ViewController ()
 
@@ -37,8 +38,10 @@
     
     FifthViewController *fifth = [[FifthViewController alloc] initWithNibName:@"FifthViewController" bundle:nil];
     
+    SixthViewController *sixth = [[SixthViewController alloc] initWithNibName:@"SixthViewController" bundle:nil];
+    
     // Add the view controllers to the array
-    self.viewControllers = [[NSArray alloc] initWithObjects:first, second, third, fourth, fifth, nil];
+    self.viewControllers = [[NSArray alloc] initWithObjects:first, second, third, fourth, sixth, fifth, nil];
     
     self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationVertical options:nil];
     
@@ -56,14 +59,10 @@
     [self.pageController didMoveToParentViewController:self];
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
-
 }
 
 - (void) viewDidAppear:(BOOL)animated {
     
-//    NSArray *next = [[NSArray alloc] initWithObjects:[self.viewControllers objectAtIndex:1], nil];
-//    
-//    [self.pageController setViewControllers:next direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:NULL];
 
 }
 

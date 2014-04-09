@@ -52,7 +52,16 @@
     work.projectIcon = @"work_icon.png";
     work.projectDescription = [NSString stringWithFormat:@"%@\r\r%@\r\r%@", @"For the past year and a half, I've been working for one of the big four professional services firms doing a variety of things from Data Analysis to Front End Development.", @"I started doing Data Analysis over financial data, giving clients insight into how and where there money is going with a focus on identifying fraud. We worked in an Oracle environment and used a variety of OLAP techniques for analysis.", @"More recently, I've started a new role working on a project for the state government developing a web application for deployment on a tablet to help them more efficiently manage their public transport services. I've been working on the Front End using HTML, SASS and the Angular JS framework."];
     
-    projects = [[NSArray alloc] initWithObjects:pixol, work, nil] ;
+    Project *university = [[Project alloc] init];
+    university.header = @"University";
+    university.role = @"Student";
+    university.languages = @"Bachelor of Computer Science and Technology";
+    university.accentColor = [UIColor colorWithRed:0.11 green:0.49 blue:0.95 alpha:1];
+    university.introduction = @"I'm in my third year of a Bachelor of Computer Science at the University of Sydney and I love it. I plan on graduating at the end of next year.";
+    university.projectIcon = @"university_icon.png";
+    university.projectDescription = [NSString stringWithFormat:@"%@\r\r%@\r\r%@", @"For the past year and a half, I've been working for one of the big four professional services firms doing a variety of things from Data Analysis to Front End Development.", @"I started doing Data Analysis over financial data, giving clients insight into how and where there money is going with a focus on identifying fraud. We worked in an Oracle environment and used a variety of OLAP techniques for analysis.", @"More recently, I've started a new role working on a project for the state government developing a web application for deployment on a tablet to help them more efficiently manage their public transport services. I've been working on the Front End using HTML, SASS and the Angular JS framework."];
+    
+    projects = [[NSArray alloc] initWithObjects:pixol, university, work, nil] ;
 
 }
 
@@ -72,7 +81,7 @@
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ThirdViewCell" owner:self options:nil];
         cell = [nib objectAtIndex:0];
         
-        if ([indexPath row]%2 == 0) {
+        if ([indexPath row]%2 == 1) {
             cell.backgroundColor = [UIColor whiteColor];
         } else {
             cell.backgroundColor = [UIColor colorWithRed:0.97 green:0.97 blue:0.97 alpha:0.2];
@@ -108,7 +117,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

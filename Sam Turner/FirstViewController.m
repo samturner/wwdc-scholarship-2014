@@ -34,14 +34,6 @@
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
     
-//    CABasicAnimation *pulseAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
-//    pulseAnimation.duration = 1.5;
-//    pulseAnimation.toValue = [NSNumber numberWithFloat:0.1];
-//    pulseAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-//    pulseAnimation.autoreverses = YES;
-//    pulseAnimation.repeatCount = FLT_MAX;
-    
-//    [self.downPrompt.layer addAnimation:pulseAnimation forKey:@"animateFrame"];
   
     [self addPulseAnimationToView:self.downPrompt];
     
