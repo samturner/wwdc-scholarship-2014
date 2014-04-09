@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
     
+
+    
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
 //    [self addPulseAnimationToView:self.downPrompt];
@@ -47,7 +49,7 @@
     zoomLocation.latitude = -33.871105;
     zoomLocation.longitude= 151.206737;
     
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 2.5*METERS_PER_MILE, 2.5*METERS_PER_MILE);
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 12*METERS_PER_MILE, 12*METERS_PER_MILE);
     
     [self.uniMap setRegion:viewRegion animated:YES];
     
@@ -60,6 +62,25 @@
     [self.uniMap addAnnotation:point];
         
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    
+    [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
+}
+
+- (void) zoomMap {
+    CLLocationCoordinate2D zoomLocation;
+    
+    zoomLocation.latitude = -33.871105;
+    zoomLocation.longitude= 151.206737;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 2.5*METERS_PER_MILE, 2.5*METERS_PER_MILE);
+    
+    viewRegion.center.latitude = self.uniMap.centerCoordinate.latitude;
+    viewRegion.center.longitude = self.uniMap.centerCoordinate.longitude;
+    
+    [self.uniMap setRegion:viewRegion animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

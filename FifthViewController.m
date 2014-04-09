@@ -34,7 +34,7 @@
     zoomLocation.latitude = 37.783961;
     zoomLocation.longitude= -122.401268;
     
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 2.5*METERS_PER_MILE, 2.5*METERS_PER_MILE);
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 12*METERS_PER_MILE, 12*METERS_PER_MILE);
     
     [self.sanFranMap setRegion:viewRegion animated:YES];
     // Do any additional setup after loading the view from its nib.
@@ -46,6 +46,22 @@
     point.title = @"Moscone West";
     
     [self.sanFranMap addAnnotation:point];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
+
+}
+
+- (void) zoomMap {
+    CLLocationCoordinate2D zoomLocation;
+    
+    zoomLocation.latitude = 37.783961;
+    zoomLocation.longitude= -122.401268;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 2.5*METERS_PER_MILE, 2.5*METERS_PER_MILE);
+    
+    [self.sanFranMap setRegion:viewRegion animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

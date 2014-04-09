@@ -45,7 +45,6 @@
     self.pageController.dataSource = self;
     [[self.pageController view] setFrame:[[self view] bounds]];
     
-    
     BaseViewController *initialViewController = [self viewControllerAtIndex:0];
     
     NSArray *viewControllers = [NSArray arrayWithObject:initialViewController];
@@ -58,7 +57,14 @@
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
 
+}
+
+- (void) viewDidAppear:(BOOL)animated {
     
+//    NSArray *next = [[NSArray alloc] initWithObjects:[self.viewControllers objectAtIndex:1], nil];
+//    
+//    [self.pageController setViewControllers:next direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:NULL];
+
 }
 
 - (void)didReceiveMemoryWarning
