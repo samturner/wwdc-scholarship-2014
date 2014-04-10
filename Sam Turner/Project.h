@@ -17,6 +17,8 @@
 @property (strong, nonatomic) NSString *projectDescription;
 @property (strong, nonatomic) NSString *languages;
 
+@property (strong, nonatomic) NSArray *leads;
+
 @property (strong, nonatomic) UIColor *accentColor;
 
 @end

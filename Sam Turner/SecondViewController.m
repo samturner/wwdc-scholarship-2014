@@ -67,6 +67,7 @@
 - (void) viewDidAppear:(BOOL)animated {
     
     [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
+    
 }
 
 - (void) zoomMap {

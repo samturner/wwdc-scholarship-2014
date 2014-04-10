@@ -19,6 +19,11 @@
 @property (weak, nonatomic) IBOutlet UITextView *projectDescription;
 @property (weak, nonatomic) IBOutlet UILabel *projectLanguages;
 
+@property (weak, nonatomic) IBOutlet UILabel *leadOne;
+@property (weak, nonatomic) IBOutlet UILabel *leadTwo;
+@property (weak, nonatomic) IBOutlet UILabel *leadThree;
+
+
 @property (weak, nonatomic) IBOutlet UILabel *roleType;
 
 - (void) showViewWithProject:(Project *) project;

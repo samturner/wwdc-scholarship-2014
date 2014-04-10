@@ -34,6 +34,7 @@
 		BA4703B118F129BB00B87BEE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4703B018F129BB00B87BEE /* SpriteKit.framework */; };
 		BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B618F13EB900B87BEE /* FontAwesome.ttf */; };
 		BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */; };
+		BA4BE2D218F6D6E00007B3EE /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4BE2D118F6D6E00007B3EE /* SKBounceAnimation.m */; };
 		BA76609F18F24C0E008BD6D7 /* projects_content.md in Resources */ = {isa = PBXBuildFile; fileRef = BA76609E18F24C0E008BD6D7 /* projects_content.md */; };
 		BA86F15618F26CB800809D93 /* ThirdViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86F15518F26CB800809D93 /* ThirdViewTableViewCell.m */; };
 		BA86F15918F289B700809D93 /* muro_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86F15818F289B700809D93 /* muro_icon.png */; };
@@ -106,6 +107,8 @@
 		BA4703B618F13EB900B87BEE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		BA4703B818F13EC900B87BEE /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		BA4703B918F13EC900B87BEE /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		BA4BE2D018F6D6E00007B3EE /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = "<group>"; };
+		BA4BE2D118F6D6E00007B3EE /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = "<group>"; };
 		BA76609E18F24C0E008BD6D7 /* projects_content.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = projects_content.md; sourceTree = "<group>"; };
 		BA86F15418F26CB800809D93 /* ThirdViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewTableViewCell.h; sourceTree = "<group>"; };
 		BA86F15518F26CB800809D93 /* ThirdViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewTableViewCell.m; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 		BA47036418F1217F00B87BEE /* Sam Turner */ = {
 			isa = PBXGroup;
 			children = (
+				BA4BE2D018F6D6E00007B3EE /* SKBounceAnimation.h */,
+				BA4BE2D118F6D6E00007B3EE /* SKBounceAnimation.m */,
 				BA86F15D18F298EB00809D93 /* Project */,
 				BA4703AD18F123D200B87BEE /* View Controllers */,
 				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
@@ -520,6 +525,7 @@
 				BA47037518F1217F00B87BEE /* ViewController.m in Sources */,
 				BA47039C18F121B300B87BEE /* FirstViewController.m in Sources */,
 				BA47036F18F1217F00B87BEE /* AppDelegate.m in Sources */,
+				BA4BE2D218F6D6E00007B3EE /* SKBounceAnimation.m in Sources */,
 				BA98BD4518F17FF000052EC8 /* CellDetailViewController.m in Sources */,
 				BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */,
 				BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */,

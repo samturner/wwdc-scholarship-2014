@@ -44,7 +44,18 @@
     self.roleType.textColor = project.accentColor;
     self.roleType.text = project.role;
     self.projectLanguages.text = project.languages;
+    
     [self.icon setImage:[UIImage imageNamed: project.projectIcon]];
+    
+    self.leadOne.textColor = project.accentColor;
+    self.leadOne.text = [project.leads objectAtIndex:0];
+    
+    self.leadTwo.textColor = project.accentColor;
+    self.leadTwo.text = [project.leads objectAtIndex:1];
+    
+    self.leadThree.textColor = project.accentColor;
+    self.leadThree.text = [project.leads objectAtIndex:2];
+    
 
 }
 

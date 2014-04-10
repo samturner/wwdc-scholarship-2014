@@ -18,4 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *downPrompt;
 @property (weak, nonatomic) IBOutlet UILabel *downPromptText;
 
+@property (weak, nonatomic) IBOutlet UIImageView *circleImage;
+
 @end

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController">
             <connections>
+                <outlet property="circleImage" destination="q3T-8Q-rvQ" id="AId-Bf-iSD"/>
                 <outlet property="downPrompt" destination="KxD-T1-aZA" id="nPw-zm-stQ"/>
                 <outlet property="downPromptText" destination="0bV-LD-Bp3" id="OOS-cw-LrL"/>
                 <outlet property="particleView" destination="FPV-t8-OQ1" id="8Lk-HA-20g"/>
@@ -34,11 +35,11 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Re-nx-55U">
-                    <rect key="frame" x="39" y="389" width="240" height="70"/>
+                    <rect key="frame" x="39" y="389" width="240" height="99"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                     <attributedString key="attributedText">
-                        <fragment content="I'm a 20 year old developer, designer and studier of Computer Science from Sydney, Australia.">
+                        <fragment content="I'm a twenty year old developer, designer and university student from sunny Sydney, Australia.">
                             <attributes>
                                 <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <font key="NSFont" size="14" name="HelveticaNeue"/>
@@ -49,7 +50,7 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sam Turner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjP-88-Fcx">
-                    <rect key="frame" x="64" y="333" width="191" height="48"/>
+                    <rect key="frame" x="64" y="330" width="191" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                     <color key="textColor" red="0.1764705882" green="0.76470588240000004" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,7 +64,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lets get this party started!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bV-LD-Bp3">
-                    <rect key="frame" x="0.0" y="498" width="321" height="21"/>
+                    <rect key="frame" x="0.0" y="496" width="321" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <color key="textColor" white="0.66666666669999997" alpha="0.75" colorSpace="calibratedWhite"/>

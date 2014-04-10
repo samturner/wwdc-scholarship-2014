@@ -10,6 +10,6 @@
 
 @implementation Project
 
-@synthesize header, role, introduction, accentColor, projectIcon;
+@synthesize header, role, introduction, accentColor, projectIcon, leads;
 
 @end

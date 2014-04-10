@@ -7,7 +7,10 @@
 //
 
 #import "BaseViewController.h"
+#import "SKBounceAnimation.h"
 
 @interface SixthViewController : BaseViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *meCircle;
 
 @end

@@ -23,10 +23,33 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void) viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+	NSString *keyPath = @"transform";
+	CATransform3D transform = self.meCircle.layer.transform;
+	id finalValue = [NSValue valueWithCATransform3D:
+                     CATransform3DScale(transform, 1.5, 1.5, 1.5)
+                     ];
+	
+	SKBounceAnimation *bounceAnimation = [SKBounceAnimation animationWithKeyPath:keyPath];
+	bounceAnimation.fromValue = [NSValue valueWithCATransform3D:transform];
+	bounceAnimation.toValue = finalValue;
+	bounceAnimation.duration = 0.5f;
+	bounceAnimation.numberOfBounces = 4;
+//	bounceAnimation.shouldOvershoot = YES;
+	
+	[self.meCircle.layer addAnimation:bounceAnimation forKey:@"someKey"];
+	
+	[self.meCircle.layer setValue:finalValue forKeyPath:keyPath];
+    
 }
 
 - (void)didReceiveMemoryWarning
