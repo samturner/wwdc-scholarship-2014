@@ -25,15 +25,16 @@
     return self;
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+    [self addPulseAnimationToView:self.downPrompt];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
-    
-  
-    [self addPulseAnimationToView:self.downPrompt];
     
     // Configure the SKView
     SKView * skView = self.particleView;

@@ -18,7 +18,7 @@
         /* Setup your scene here */
         
         self.backgroundColor = [SKColor whiteColor];
-        [self addChild:[self newExplosion:50 : 160]];
+        [self addChild:[self newExplosion:50 : 280]];
 
     }
     return self;
