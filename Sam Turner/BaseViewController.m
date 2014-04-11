@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+        [self view];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -33,6 +34,24 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) shakeView: (UIView *) view {
+    NSString *keyPath = @"transform";
+	CATransform3D transform = view.layer.transform;
+	id finalValue = [NSValue valueWithCATransform3D:
+                     CATransform3DScale(transform, 1.05, 1.05, 1.05)
+                     ];
+	
+	SKBounceAnimation *bounceAnimation = [SKBounceAnimation animationWithKeyPath:keyPath];
+	bounceAnimation.fromValue = [NSValue valueWithCATransform3D:transform];
+	bounceAnimation.toValue = finalValue;
+	bounceAnimation.duration = 0.3f;
+	bounceAnimation.numberOfBounces = 4;
+    bounceAnimation.shouldOvershoot = YES;
+    bounceAnimation.shake = YES;
+	
+	[view.layer addAnimation:bounceAnimation forKey:@"someKey"];
 }
 
 - (void) addPulseAnimationToView: (UIView *) aView {

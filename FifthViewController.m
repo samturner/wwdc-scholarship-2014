@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     
+    self.bottomThanks.font = [UIFont fontWithName:kFontAwesomeFamilyName size:10];
+    self.bottomThanks.text = [NSString stringWithFormat:@"%@ \u00A0 Thanks for considering me", [NSString fontAwesomeIconStringForEnum:FAApple]];
+    
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = 37.783961;
     zoomLocation.longitude= -122.401268;

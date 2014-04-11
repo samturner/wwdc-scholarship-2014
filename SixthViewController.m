@@ -26,30 +26,52 @@
 - (void) viewDidLoad {
     [super viewDidLoad];
     
+    self.nextArray = [[NSArray alloc] initWithObjects:@"At the end of the year I plan on interning at a tech company in the Bay Area to build my technical skills.",@"Next year I plan on graduating University and possibly pursuing postgraduate studies, I'd love to learn as much as I can.", @"Afterwards, I want to live overseas and do meaningful work, ideally in San Francisco but really, anywhere would be an adventure.", @"Ultimately, my dream is to build my own company that makes a real difference and changes the world for the better.", nil];
+    
+    self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
+    self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
+    
+    self.nextContainer.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapRecogniser = [[UITapGestureRecognizer alloc]
+                                             initWithTarget:self action:@selector(handleNextTap:)];
+    tapRecogniser.delegate = self;
+    [self.nextContainer addGestureRecognizer:tapRecogniser];
+    
+    self.progressStep = 0;
+    
+    // Create and configure the scene.
+    SKScene * scene = [particleScene sceneWithSize:self.particleView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    // Present the scene.
+    [self.particleView presentScene:scene];
 }
 
-- (void) viewWillAppear:(BOOL)animated {
-
+- (void)handleNextTap:(UITapGestureRecognizer *)tapGestureRecogniser {
+    
+    self.progressStep++;
+    
+    if (self.progressStep > [self.nextArray count]) self.progressStep = 1;
+    
+    double count = [self.nextArray count];
+    
+    double percentage = self.progressStep/count;
+    
+    if (percentage == 0.0) {
+        [self.nextProgress setProgress:percentage animated:NO];
+    } else {
+        [self.nextProgress setProgress:percentage animated:YES];
+        self.tapMe.hidden = YES;
+    }
+	
+    self.nextParagraph.text = [self.nextArray objectAtIndex:self.progressStep-1];
+    
+    [self shakeView:self.nextContainer];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
-	NSString *keyPath = @"transform";
-	CATransform3D transform = self.meCircle.layer.transform;
-	id finalValue = [NSValue valueWithCATransform3D:
-                     CATransform3DScale(transform, 1.5, 1.5, 1.5)
-                     ];
-	
-	SKBounceAnimation *bounceAnimation = [SKBounceAnimation animationWithKeyPath:keyPath];
-	bounceAnimation.fromValue = [NSValue valueWithCATransform3D:transform];
-	bounceAnimation.toValue = finalValue;
-	bounceAnimation.duration = 0.5f;
-	bounceAnimation.numberOfBounces = 4;
-//	bounceAnimation.shouldOvershoot = YES;
-	
-	[self.meCircle.layer addAnimation:bounceAnimation forKey:@"someKey"];
-	
-	[self.meCircle.layer setValue:finalValue forKeyPath:keyPath];
-    
+    [self shakeView:self.nextContainer];
+    [self addPulseAnimationToView:self.tapMe];
 }
 
 - (void)didReceiveMemoryWarning

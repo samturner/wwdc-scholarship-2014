@@ -66,12 +66,10 @@
     
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
-//    [self addPulseAnimationToView:self.downPrompt];
     
 }
 
 - (void) viewDidAppear:(BOOL)animated {
-
 }
 
 - (void)didReceiveMemoryWarning

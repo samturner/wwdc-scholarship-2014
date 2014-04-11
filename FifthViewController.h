@@ -12,5 +12,6 @@
 @interface FifthViewController : BaseViewController
 
 @property (weak, nonatomic) IBOutlet MKMapView *sanFranMap;
+@property (weak, nonatomic) IBOutlet UILabel *bottomThanks;
 
 @end

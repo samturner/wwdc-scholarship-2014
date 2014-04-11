@@ -8,9 +8,23 @@
 
 #import "BaseViewController.h"
 #import "SKBounceAnimation.h"
+#import "DACircularProgressView.h"
+#import <SpriteKit/SKView.h>
+#import "particleScene.h"
+
 
 @interface SixthViewController : BaseViewController
 
-@property (weak, nonatomic) IBOutlet UIImageView *meCircle;
+@property (weak, nonatomic) IBOutlet SKView *particleView;
+@property (weak, nonatomic) IBOutlet UIImageView *whatsNext;
+@property (weak, nonatomic) IBOutlet DACircularProgressView *nextProgress;
+@property (weak, nonatomic) IBOutlet UIView *nextContainer;
+@property (weak, nonatomic) IBOutlet UILabel *tapMe;
+@property (weak, nonatomic) IBOutlet UILabel *downPrompt;
+@property (weak, nonatomic) IBOutlet UITextView *nextParagraph;
+
+@property (strong, nonatomic) NSArray *nextArray;
+
+@property int progressStep;
 
 @end

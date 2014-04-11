@@ -33,16 +33,18 @@
     
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
-//    [self addPulseAnimationToView:self.downPrompt];
     
     self.studyLabel.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.studyLabel.text = [NSString fontAwesomeIconStringForEnum:FABook];
+    [self shakeView:self.studyLabel];
     
     self.leisureLabel.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.leisureLabel.text = [NSString fontAwesomeIconStringForEnum:FAGamepad];
+    [self shakeView:self.leisureLabel];
     
     self.workLabel.font  = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.workLabel.text = [NSString fontAwesomeIconStringForEnum:FAUsers];
+    [self shakeView:self.workLabel];
     
     CLLocationCoordinate2D zoomLocation;
     
@@ -67,6 +69,12 @@
 - (void) viewDidAppear:(BOOL)animated {
     
     [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
+
+    [self shakeView:self.studyLabel];
+    
+    [self shakeView:self.leisureLabel];
+    
+    [self shakeView:self.workLabel];
     
 }
 

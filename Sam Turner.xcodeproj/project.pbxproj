@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0A0EC718F7C49E00E45846 /* whats_next_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */; };
+		BA0A0ECC18F7C62C00E45846 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */; };
+		BA0A0ECF18F7DE7500E45846 /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */; };
 		BA140E9518F55D2F0041340F /* university_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9418F55D2F0041340F /* university_icon.png */; };
 		BA140E9C18F563010041340F /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA140E9A18F563010041340F /* SixthViewController.m */; };
-		BA140E9D18F563010041340F /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9B18F563010041340F /* SixthViewController.xib */; };
 		BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
 		BA47036118F1217F00B87BEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036018F1217F00B87BEE /* CoreGraphics.framework */; };
 		BA47036318F1217F00B87BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47036218F1217F00B87BEE /* UIKit.framework */; };
@@ -69,10 +71,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whats_next_circle.png; sourceTree = "<group>"; };
+		BA0A0ECA18F7C62C00E45846 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
 		BA140E9418F55D2F0041340F /* university_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_icon.png; sourceTree = "<group>"; };
 		BA140E9918F563010041340F /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
 		BA140E9A18F563010041340F /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
-		BA140E9B18F563010041340F /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
 		BA47035B18F1217F00B87BEE /* Sam Turner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sam Turner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA47035E18F1217F00B87BEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA47036018F1217F00B87BEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,12 +170,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0A0EC818F7C5FE00E45846 /* SKBounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BE2D018F6D6E00007B3EE /* SKBounceAnimation.h */,
+				BA4BE2D118F6D6E00007B3EE /* SKBounceAnimation.m */,
+			);
+			name = SKBounceAnimation;
+			sourceTree = "<group>";
+		};
+		BA0A0EC918F7C60700E45846 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0ECD18F7C63000E45846 /* DACircularProgressView */,
+				BA4703BB18F13ECF00B87BEE /* Font Awesome */,
+				BA0A0EC818F7C5FE00E45846 /* SKBounceAnimation */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		BA0A0ECD18F7C63000E45846 /* DACircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0ECA18F7C62C00E45846 /* DACircularProgressView.h */,
+				BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */,
+			);
+			name = DACircularProgressView;
+			sourceTree = "<group>";
+		};
 		BA140E9E18F563040041340F /* SixthViewController */ = {
 			isa = PBXGroup;
 			children = (
 				BA140E9918F563010041340F /* SixthViewController.h */,
 				BA140E9A18F563010041340F /* SixthViewController.m */,
-				BA140E9B18F563010041340F /* SixthViewController.xib */,
+				BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */,
 			);
 			name = SixthViewController;
 			path = ..;
@@ -212,8 +245,6 @@
 		BA47036418F1217F00B87BEE /* Sam Turner */ = {
 			isa = PBXGroup;
 			children = (
-				BA4BE2D018F6D6E00007B3EE /* SKBounceAnimation.h */,
-				BA4BE2D118F6D6E00007B3EE /* SKBounceAnimation.m */,
 				BA86F15D18F298EB00809D93 /* Project */,
 				BA4703AD18F123D200B87BEE /* View Controllers */,
 				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
@@ -221,7 +252,7 @@
 				BA47037018F1217F00B87BEE /* Main.storyboard */,
 				BA47037318F1217F00B87BEE /* ViewController.h */,
 				BA47037418F1217F00B87BEE /* ViewController.m */,
-				BA4703BB18F13ECF00B87BEE /* Font Awesome */,
+				BA0A0EC918F7C60700E45846 /* Controls */,
 				BA47037618F1217F00B87BEE /* Images.xcassets */,
 				BA47036518F1217F00B87BEE /* Supporting Files */,
 			);
@@ -231,6 +262,7 @@
 		BA47036518F1217F00B87BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */,
 				BAD79A2418F41EB0001EE6DC /* page_drop_shadow.png */,
 				BA76609D18F24BFE008BD6D7 /* Content */,
 				BA4703B618F13EB900B87BEE /* FontAwesome.ttf */,
@@ -494,8 +526,9 @@
 				BA47037218F1217F00B87BEE /* Main.storyboard in Resources */,
 				BAD79A2118F4161B001EE6DC /* pixol_icon.png in Resources */,
 				BA98BD3A18F1653200052EC8 /* ThirdViewController.xib in Resources */,
-				BA140E9D18F563010041340F /* SixthViewController.xib in Resources */,
+				BA0A0ECF18F7DE7500E45846 /* SixthViewController.xib in Resources */,
 				BAD79A1F18F40796001EE6DC /* jobgps_icon.png in Resources */,
+				BA0A0EC718F7C49E00E45846 /* whats_next_circle.png in Resources */,
 				BAD79A2518F41EB0001EE6DC /* page_drop_shadow.png in Resources */,
 				BA98BD4618F17FF000052EC8 /* CellDetailViewController.xib in Resources */,
 				BAD79A2318F41673001EE6DC /* work_icon.png in Resources */,
@@ -530,6 +563,7 @@
 				BA98BD3918F1653200052EC8 /* ThirdViewController.m in Sources */,
 				BA4703BA18F13EC900B87BEE /* NSString+FontAwesome.m in Sources */,
 				BA4703A118F121C500B87BEE /* particleScene.m in Sources */,
+				BA0A0ECC18F7C62C00E45846 /* DACircularProgressView.m in Sources */,
 				BADDBF4218F2CBD0003B8D88 /* FifthViewController.m in Sources */,
 				BA47036B18F1217F00B87BEE /* main.m in Sources */,
 				BA140E9C18F563010041340F /* SixthViewController.m in Sources */,

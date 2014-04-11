@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "NSString+FontAwesome.h"
+#import "SKBounceAnimation.h"
 
 @interface BaseViewController : UIViewController
 
 @property NSUInteger index;
 
 - (void) addPulseAnimationToView: (UIView *) view;
+- (void) shakeView: (UIView *) view;
 
 @end
