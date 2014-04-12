@@ -20,14 +20,12 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-
     }
     return self;
 }
 
 -(void) viewDidAppear:(BOOL)animated {
     [self addPulseAnimationToView:self.downPrompt];
-
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -55,7 +53,6 @@
     self.circleImage.userInteractionEnabled = YES;
     UITapGestureRecognizer *tapRecogniser = [[UITapGestureRecognizer alloc]
                                      initWithTarget:self action:@selector(handleCircleTap:)];
-    tapRecogniser.delegate = self;
     [self.circleImage addGestureRecognizer:tapRecogniser];
     
     // Do any additional setup after loading the view from its nib.

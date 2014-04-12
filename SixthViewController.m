@@ -34,7 +34,7 @@
     self.nextContainer.userInteractionEnabled = YES;
     UITapGestureRecognizer *tapRecogniser = [[UITapGestureRecognizer alloc]
                                              initWithTarget:self action:@selector(handleNextTap:)];
-    tapRecogniser.delegate = self;
+
     [self.nextContainer addGestureRecognizer:tapRecogniser];
     
     self.progressStep = 0;

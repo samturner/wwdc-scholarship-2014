@@ -17,15 +17,25 @@
 #import "FifthViewController.h"
 #import "SixthViewController.h"
 
+#define isiPhone5  ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (!self.hasPresentedAlert && !isiPhone5) {        // Checking for smaller devices
+        UIAlertView *view = [[UIAlertView alloc]initWithTitle:@"3.5\" Device Detected" message:@"Heads up, this will look a whole lot better on a 4\" device. Make sure you scroll down." delegate:self cancelButtonTitle:@"Alrighty then!" otherButtonTitles: nil];
+        [view show];
+        self.hasPresentedAlert = YES;
+    }
     
     // Instantiate the view controllers
     FirstViewController *first = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
@@ -63,7 +73,6 @@
 
 - (void) viewDidAppear:(BOOL)animated {
     
-
 }
 
 - (void)didReceiveMemoryWarning

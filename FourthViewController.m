@@ -124,7 +124,7 @@
     
     Project *university = [[Project alloc] init];
     university.header = @"University";
-    university.role = @"Student Dude";
+    university.role = @"Student Guy";
     university.languages = @"Bachelor of Computer Science and Technology";
     university.accentColor = [UIColor colorWithRed:0.11 green:0.49 blue:0.95 alpha:1];
     university.introduction = @"I'm studying a Bachelor of Computer Science and I love it. I particularly enjoy learning about Aritificial Intelligence and Data Mining.";

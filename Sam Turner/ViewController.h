@@ -10,9 +10,12 @@
 
 @interface ViewController : UIViewController <UIPageViewControllerDataSource>
 
+@property(assign) BOOL hasPresentedAlert;
+
 @property (strong, nonatomic) UIPageViewController *pageController;
 
 @property (strong, nonatomic) NSArray *viewControllers;
 
+@property (nonatomic, retain) UIAlertView *alertShowing;
 
 @end
