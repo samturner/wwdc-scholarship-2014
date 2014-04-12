@@ -27,6 +27,7 @@
 
 -(void) viewDidAppear:(BOOL)animated {
     [self addPulseAnimationToView:self.downPrompt];
+
 }
 
 - (void)viewDidLoad

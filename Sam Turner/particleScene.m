@@ -24,6 +24,7 @@
     return self;
 }
 
+
 - (SKEmitterNode *) newExplosion: (float)posX : (float) posy
 {
     

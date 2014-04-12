@@ -10,6 +10,7 @@
 		BA0A0EC718F7C49E00E45846 /* whats_next_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */; };
 		BA0A0ECC18F7C62C00E45846 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */; };
 		BA0A0ECF18F7DE7500E45846 /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */; };
+		BA0A0ED118F8CA7200E45846 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0ED018F8CA7200E45846 /* loading.png */; };
 		BA140E9518F55D2F0041340F /* university_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9418F55D2F0041340F /* university_icon.png */; };
 		BA140E9C18F563010041340F /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA140E9A18F563010041340F /* SixthViewController.m */; };
 		BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
@@ -75,6 +76,7 @@
 		BA0A0ECA18F7C62C00E45846 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
 		BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
+		BA0A0ED018F8CA7200E45846 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		BA140E9418F55D2F0041340F /* university_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_icon.png; sourceTree = "<group>"; };
 		BA140E9918F563010041340F /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
 		BA140E9A18F563010041340F /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
@@ -198,6 +200,15 @@
 			name = DACircularProgressView;
 			sourceTree = "<group>";
 		};
+		BA0A0ED218F8CDA600E45846 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA4703A218F121C800B87BEE /* Particles */,
+				BA86F15D18F298EB00809D93 /* Project */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		BA140E9E18F563040041340F /* SixthViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,14 +256,14 @@
 		BA47036418F1217F00B87BEE /* Sam Turner */ = {
 			isa = PBXGroup;
 			children = (
-				BA86F15D18F298EB00809D93 /* Project */,
+				BA0A0ED218F8CDA600E45846 /* Classes */,
+				BA0A0EC918F7C60700E45846 /* Controls */,
 				BA4703AD18F123D200B87BEE /* View Controllers */,
 				BA47036D18F1217F00B87BEE /* AppDelegate.h */,
 				BA47036E18F1217F00B87BEE /* AppDelegate.m */,
 				BA47037018F1217F00B87BEE /* Main.storyboard */,
 				BA47037318F1217F00B87BEE /* ViewController.h */,
 				BA47037418F1217F00B87BEE /* ViewController.m */,
-				BA0A0EC918F7C60700E45846 /* Controls */,
 				BA47037618F1217F00B87BEE /* Images.xcassets */,
 				BA47036518F1217F00B87BEE /* Supporting Files */,
 			);
@@ -262,6 +273,7 @@
 		BA47036518F1217F00B87BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A0ED018F8CA7200E45846 /* loading.png */,
 				BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */,
 				BAD79A2418F41EB0001EE6DC /* page_drop_shadow.png */,
 				BA76609D18F24BFE008BD6D7 /* Content */,
@@ -312,7 +324,6 @@
 		BA47039E18F121B900B87BEE /* FirstViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BA4703A218F121C800B87BEE /* Particles */,
 				BA47039918F121B300B87BEE /* FirstViewController.h */,
 				BA47039A18F121B300B87BEE /* FirstViewController.m */,
 				BA47039B18F121B300B87BEE /* FirstViewController.xib */,
@@ -514,6 +525,7 @@
 				BA47039D18F121B300B87BEE /* FirstViewController.xib in Resources */,
 				BA47037718F1217F00B87BEE /* Images.xcassets in Resources */,
 				BA86F15F18F29D9000809D93 /* dollarlog_icon.png in Resources */,
+				BA0A0ED118F8CA7200E45846 /* loading.png in Resources */,
 				BA4703AA18F122E400B87BEE /* spark.png in Resources */,
 				BA86F15918F289B700809D93 /* muro_icon.png in Resources */,
 				BA4703B718F13EB900B87BEE /* FontAwesome.ttf in Resources */,

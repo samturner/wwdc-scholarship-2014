@@ -40,7 +40,6 @@
     
     SixthViewController *sixth = [[SixthViewController alloc] initWithNibName:@"SixthViewController" bundle:nil];
     
-    
     // Add the view controllers to the array
     self.viewControllers = [[NSArray alloc] initWithObjects:first, second, third, fourth, sixth, fifth, nil];
     
