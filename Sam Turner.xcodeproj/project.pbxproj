@@ -11,6 +11,8 @@
 		BA0A0ECC18F7C62C00E45846 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */; };
 		BA0A0ECF18F7DE7500E45846 /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */; };
 		BA0A0ED118F8CA7200E45846 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0ED018F8CA7200E45846 /* loading.png */; };
+		BA0A0ED418F926DD00E45846 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0A0ED318F926DC00E45846 /* CoreData.framework */; };
+		BA0A0EDD18F9597700E45846 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0EDC18F9597700E45846 /* README.md */; };
 		BA140E9518F55D2F0041340F /* university_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA140E9418F55D2F0041340F /* university_icon.png */; };
 		BA140E9C18F563010041340F /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA140E9A18F563010041340F /* SixthViewController.m */; };
 		BA47035F18F1217F00B87BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47035E18F1217F00B87BEE /* Foundation.framework */; };
@@ -77,6 +79,8 @@
 		BA0A0ECB18F7C62C00E45846 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		BA0A0ECE18F7DE7500E45846 /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
 		BA0A0ED018F8CA7200E45846 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		BA0A0ED318F926DC00E45846 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA0A0EDC18F9597700E45846 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA140E9418F55D2F0041340F /* university_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_icon.png; sourceTree = "<group>"; };
 		BA140E9918F563010041340F /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
 		BA140E9A18F563010041340F /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0A0ED418F926DD00E45846 /* CoreData.framework in Frameworks */,
 				BABC928F18F3D25B0037B02F /* QuartzCore.framework in Frameworks */,
 				BA4703B118F129BB00B87BEE /* SpriteKit.framework in Frameworks */,
 				BA4703AF18F129B500B87BEE /* MapKit.framework in Frameworks */,
@@ -242,6 +247,7 @@
 		BA47035D18F1217F00B87BEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A0ED318F926DC00E45846 /* CoreData.framework */,
 				BABC928E18F3D25B0037B02F /* QuartzCore.framework */,
 				BA4703B018F129BB00B87BEE /* SpriteKit.framework */,
 				BA4703AE18F129B500B87BEE /* MapKit.framework */,
@@ -273,6 +279,7 @@
 		BA47036518F1217F00B87BEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A0EDC18F9597700E45846 /* README.md */,
 				BA0A0ED018F8CA7200E45846 /* loading.png */,
 				BA0A0EC618F7C49E00E45846 /* whats_next_circle.png */,
 				BAD79A2418F41EB0001EE6DC /* page_drop_shadow.png */,
@@ -532,6 +539,7 @@
 				BADDBF3A18F2CB1F003B8D88 /* FourthViewController.xib in Resources */,
 				BADDBF4318F2CBD0003B8D88 /* FifthViewController.xib in Resources */,
 				BA98BD2618F1541300052EC8 /* sam_hello.png in Resources */,
+				BA0A0EDD18F9597700E45846 /* README.md in Resources */,
 				BA98BD3D18F165D300052EC8 /* ThirdViewCell.xib in Resources */,
 				BA47036918F1217F00B87BEE /* InfoPlist.strings in Resources */,
 				BA76609F18F24C0E008BD6D7 /* projects_content.md in Resources */,

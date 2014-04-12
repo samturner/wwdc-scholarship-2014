@@ -26,7 +26,7 @@
 - (void) viewDidLoad {
     [super viewDidLoad];
     
-    self.nextArray = [[NSArray alloc] initWithObjects:@"At the end of the year I plan on interning at a tech company in the Bay Area to build my technical skills.",@"Next year I plan on graduating University and possibly pursuing postgraduate studies, I'd love to learn as much as I can.", @"Afterwards, I want to live overseas and do meaningful work, ideally in San Francisco but really, anywhere would do.", @"Ultimately, my dream is to build my own company that makes a real difference and changes the world for the better.", nil];
+    self.nextArray = [[NSArray alloc] initWithObjects:@"At the end of the year I'm hoping to intern at a tech company in the Bay Area to build my technical skills.",@"Next year I plan on graduating University and possibly pursuing postgraduate studies, I'd love to learn as much as I can.", @"Afterwards, I want to live overseas and do meaningful work, ideally in San Francisco but really, anywhere would be an adventure.", @"Ultimately, my dream is to build my own company that makes a real difference and changes the world for the better.", nil];
     
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
@@ -76,6 +76,12 @@
     [self shakeView:self.nextContainer];
     [self addPulseAnimationToView:self.tapMe];
 }
+
+- (void) viewWillAppear:(BOOL)animated {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

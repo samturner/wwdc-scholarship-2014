@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setNeedsStatusBarAppearanceUpdate];
     
     self.bottomThanks.font = [UIFont fontWithName:kFontAwesomeFamilyName size:10];
     self.bottomThanks.text = [NSString stringWithFormat:@"%@ \u00A0 Thanks for considering me", [NSString fontAwesomeIconStringForEnum:FAApple]];
@@ -52,8 +53,13 @@
 
 - (void) viewDidAppear:(BOOL)animated {
     [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
-
 }
+
+- (void) viewWillAppear:(BOOL)animated {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 
 - (void) zoomMap {
     CLLocationCoordinate2D zoomLocation;

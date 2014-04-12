@@ -30,6 +30,11 @@
 
 }
 
+- (void) viewWillAppear:(BOOL)animated {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

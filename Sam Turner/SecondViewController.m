@@ -29,8 +29,6 @@
 {
     [super viewDidLoad];
     
-
-    
     self.downPrompt.font = [UIFont fontWithName:kFontAwesomeFamilyName size:25];
     self.downPrompt.text = [NSString fontAwesomeIconStringForEnum:FAChevronDown];
     
@@ -66,8 +64,8 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+
 - (void) viewDidAppear:(BOOL)animated {
-    
     [self performSelector:@selector(zoomMap) withObject:nil afterDelay:0.5];
 
     [self shakeView:self.studyLabel];
@@ -77,6 +75,12 @@
     [self shakeView:self.workLabel];
     
 }
+
+- (void) viewWillAppear:(BOOL)animated {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 
 - (void) zoomMap {
     CLLocationCoordinate2D zoomLocation;
