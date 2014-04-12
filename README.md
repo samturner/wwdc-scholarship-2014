@@ -10,4 +10,4 @@ I've used a few cool things such as:
 * I've used [**Font Awesome**](http://fontawesome.io) throughout the app where I wanted to show some icons. This works by using a custom NSString category.
 * I've used the [**SKBounceAnimation**](https://github.com/khanlou/SKBounceAnimation) framework to do the animations throughout the app.
     
-To view a video demonstration of the app, check out:  **[coming soon]**
+Check out a [video demonstration of the app](https://www.youtube.com/watch?v=lu_0gVWN8hA&feature=youtu.be).
