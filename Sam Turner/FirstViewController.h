@@ -20,4 +20,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *circleImage;
 
+@property (weak, nonatomic) particleScene *firstScene;
+
 @end

@@ -10,7 +10,6 @@
 
 @implementation particleScene {
     SKEmitterNode* emitter;
-    bool emitting;
 }
 
 -(id)initWithSize:(CGSize)size {
@@ -24,14 +23,11 @@
     return self;
 }
 
-
 - (SKEmitterNode *) newExplosion: (float)posX : (float) posy
 {
     
     emitter.name = @"explosion";
     
-    emitter.targetNode = self.scene;
-
     emitter = [[SKEmitterNode alloc] init];
     [emitter setParticleTexture:[SKTexture textureWithImageNamed:@"spark.png"]];
     
@@ -51,14 +47,13 @@
     [emitter setParticleScale:0.2];
     [emitter setParticleScaleSpeed:0.45];
     [emitter setYAcceleration:35];
+    
+    [emitter setParticleColorBlendFactor:1];
 
     return emitter;
 }
 
 -(void)update:(CFTimeInterval)currentTime {
-    [emitter setParticleColor:[UIColor colorWithHue:drand48() saturation:1.0 brightness:1 alpha:0.5]];
-    [emitter setParticleColorBlendFactor:1];
-    /* Called before each frame is rendered */
-}
+    [emitter setParticleColor:[UIColor colorWithHue:drand48() saturation:1.0 brightness:1 alpha:0.5]];}
 
 @end

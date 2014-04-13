@@ -10,7 +10,7 @@
                 <outlet property="nextContainer" destination="GIm-GH-OUo" id="Mhq-HA-TDK"/>
                 <outlet property="nextParagraph" destination="XnD-Ve-NVe" id="0Kx-yU-pb9"/>
                 <outlet property="nextProgress" destination="hk3-HW-Pue" id="aoD-JY-SRy"/>
-                <outlet property="particleView" destination="maU-Rs-gTS" id="WwZ-lT-J7o"/>
+                <outlet property="sixthParticleView" destination="maU-Rs-gTS" id="Jol-db-p6m"/>
                 <outlet property="tapMe" destination="4Tm-CH-taf" id="LuR-p6-KGd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="whatsNext" destination="Dwa-TB-M6s" id="JHl-0W-qUR"/>
@@ -24,7 +24,7 @@
                 <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maU-Rs-gTS" customClass="SKView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What comes next?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOj-GT-Kye">
                     <rect key="frame" x="30" y="20" width="272" height="62"/>

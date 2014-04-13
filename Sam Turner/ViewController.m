@@ -112,9 +112,6 @@
     BaseViewController *viewController = [self.viewControllers objectAtIndex:index];
     viewController.index = index;
     
-    
-    [viewController viewDidLoad];
-    
     return viewController;
 }
 
