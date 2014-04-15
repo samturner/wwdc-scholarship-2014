@@ -11,3 +11,5 @@ I've used a few cool things such as:
 * I've used the [**SKBounceAnimation**](https://github.com/khanlou/SKBounceAnimation) framework to do the animations throughout the app.
     
 Check out a [video demonstration of the app](https://www.youtube.com/watch?v=lu_0gVWN8hA&feature=youtu.be).
+
+Follow me on Twitter [@rheotron](http://www.twitter.com/rheotron)
