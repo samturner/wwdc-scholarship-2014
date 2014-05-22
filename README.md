@@ -1,6 +1,6 @@
 # WWDC 2014 Student Scholarship
 
-My submission for the 2014 WWDC Student Scholarship.
+My submission for the 2014 WWDC Student Scholarship. I was awarded the scholarship with this app.
 
 I've used a few cool things such as:
 
